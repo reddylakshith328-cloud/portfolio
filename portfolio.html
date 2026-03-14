@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>portfolio</title>
+    <style>
+        body {
+            background-color: rgb(30, 199, 255);
+        }
+        .box {
+            border: 1px solid black;
+            height: 700px;
+            font-family: Arial;
+            position: relative;
+            color: rgb(64, 255, 220);
+            background-color: rgba(0, 255, 221, 0.603);
+        }
+
+        .heading {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 0px;
+        }
+        .secondary {
+            font-size: 15px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            margin-bottom: 10px;
+            bottom: 10px;
+            width: 100%;
+        }
+        
+        .heading2 {
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 0px;
+        }
+        .inside {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgb(121, 97, 255);
+            position: relative;
+            margin-top: 0px;
+            margin-bottom:px;
+            top: 10px;
+        }
+        .heading5 {
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 0px;
+            margin-left: 10px;
+            color: black;
+           
+        }
+        .placeholder1 {
+            font-size: 16px;
+            color: gray;
+            margin-left: 10px;
+        }
+        .button2 {
+            height: 40px;
+            width: 100px;
+            cursor: pointer;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            border-radius: 10px;
+            border-color: aliceblue;
+            text-align: center;
+            margin-left: 100px;
+        }
+         .button2:hover {
+            opacity: 0.7;
+            transition: opacity 0.2s;
+        }
+
+        .textarea1 {
+            width: 300px;
+            height: 100px;
+            border-radius: 5px;
+            border: 1px solid gray;
+            padding: 5px;
+            margin-left: 10px;
+        }
+        .flexboxes {
+            border: 2px solid black;
+            height: 200px;
+            width: 200px;
+            display: flex;
+            justify-content:right;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="inside" >
+        <div class="heading">
+            <h1 class="heading2">College Feedback System</h1>
+        </div>
+        <p class="secondary">KLH University Hyderabad</p>
+       
+        </div>
+        <h1 class="heading5">Feedback Form</h1>
+        <hr>
+        <h1 style="font-size: medium; color: black;font-size: 15px; margin-left: 10px;">Name</h1>
+        <input class="placeholder1" type="text" placeholder="Enter your name" style="width: 500px; height: 30px; border-radius: 5px; border: 1px solid gray; padding: 5px;">
+
+        <h1 style="font-size: medium; color: black;font-size: 15px; margin-left: 10px;">E-Mail</h1>
+        <input class="placeholder1" type="text" placeholder="abc@gmail.com" style="width: 500px; height: 30px; border-radius: 5px; border: 1px solid gray; padding: 5px;">
+        <h1 style="font-size: medium; color: black;font-size: 15px; margin-left: 10px;">department</h1>
+        
+        <select class="placeholder1" style="width: 500px; height: 30px; border-radius: 5px; border: 1px solid gray; padding: 5px;">
+            <option value="">Select your department</option>
+            <option value="cse">CSE</option>
+            <option value="ece">ECE</option>
+            <option value="mech">MECH</option>
+            <option value="civil">CIVIL</option>
+
+            
+
+            
+  <textarea id="comments" name="comments" placeholder="Write your feedback"></textarea>
+        </select>
+        <br><br>
+        
+
+         <textarea class="textarea1" name="message" rows="" cols="" placeholder="Enter your message here"></textarea>
+        <button class="button2" style="margin-left: 190px; height: 40px; width: 100px; background-color: rgb(0, 0, 0); color: white; border-radius: 10px; border-color: aliceblue; text-align: center; margin-top: 20px;">Submit</button>              <button class="button2" style="margin-left: 0px; height: 40px; width: 100px; background-color: rgb(0, 0, 0); color: white; border-radius: 10px; border-color: aliceblue; text-align: center; margin-top: 20px;">Reset</button>  
+        <br><br>
+        <hr>    
+        
+
+ <p style="font-size: 12px; color: black; text-align: center; margin-top: 50px;"">copyright @ 2026 KLH University Hyderabd | Feedback Portal</p>
+    </div>
+
+   
+    
+</body>
+</html>
